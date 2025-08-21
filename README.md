@@ -23,21 +23,40 @@ Learn machine learning algorithms by building them from the ground up. Gain:
 mlalgosfromscratch/
 ├── linearRegression/     # Linear regression implementation
 ├── logisticRegression/   # Logistic regression implementation
-└── README.md            
+├── decisionTree/         # Decision tree implementation
+├── requirements.txt      # Dependencies for all algorithms
+└── README.md            # This file
 ```
 
 ## ML Algorithms
 
 - [X] **Linear Regression** - Regression algorithm with gradient descent
 - [X] **Logistic Regression** - Classification algorithm with sigmoid function
+- [X] **Decision Trees** - Classification and regression trees
 - [ ] **K-Means Clustering** - Unsupervised learning
 - [ ] **Neural Networks** - Multi-layer perceptron
-- [ ] **Decision Trees** - Classification and regression trees
 - [ ] **Support Vector Machines** - Linear and non-linear SVMs
 - [ ] **Random Forest** - Ensemble learning
 - [ ] **K-Nearest Neighbors** - Instance-based learning
 - [ ] **Naive Bayes** - Probabilistic classifier
 - [ ] **Principal Component Analysis** - Dimensionality reduction
+
+## Getting Started
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run implementations
+cd linearRegression
+python main.py
+
+cd ../logisticRegression
+python main.py
+
+cd ../decisionTree
+python main.py
+```
 
 ## Key Concepts Covered
 
